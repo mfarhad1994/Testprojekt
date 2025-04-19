@@ -129,7 +129,9 @@ uvicorn main:app –reload
 ```
 
 http://localhost:8000/scrape
+
 http://localhost:8000/classify
+
 http://localhost:8000/store
 
 
@@ -138,6 +140,7 @@ http://localhost:8000/store
 Die folgenden Verbesserungen können eine präzisere Zuordnung von Branchen ermöglichen:
 
 – Fine-tuning kann erfolgen, um Parameter für eine höhere Genauigkeit zu ermitteln. Dazu können vorbereitete Testdaten mit Unternehmen und genauen Branchen verwendet werden. Dieser Prozess ist zeitaufwändig und erfordert jedoch leistungsstarke Computer.
+
 – Trainingsdaten können erweitert und diversifiziert werden, um die Zuordnungsgenauigkeit zu erhöhen.
 
 
